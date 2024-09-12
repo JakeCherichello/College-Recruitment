@@ -1,0 +1,11 @@
+/* hero */
+.bg-hero-image{
+    background-image: url('images/shu3.jpg');
+    background-position: center center ;
+background-size: cover;
+}
+/* end */
+
+body{
+    background-color: rgb(250, 203, 202);
+}
