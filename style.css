@@ -9,3 +9,40 @@ background-size: cover;
 body{
     background-color: rgb(255, 153, 140);
 }
+
+h1{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Lora', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+p{
+    font-family: 'Lora', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+h5{
+    font-family: 'Lora', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+}
+
+h3{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Lora', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.card{
+    background-color:rgb(255, 230, 230);
+box-shadow: 10px 10px 2px;
+
+}
+
