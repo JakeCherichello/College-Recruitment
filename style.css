@@ -41,8 +41,13 @@ h3{
 }
 
 .card{
-    background-color:rgb(255, 230, 230);
+    background-color:rgb(255, 255, 255);
 box-shadow: 10px 10px 2px;
+transition: transform 0.05s;
+}
 
+
+.card:hover{
+transform: translateY(-5px)
 }
 
