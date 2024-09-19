@@ -51,3 +51,32 @@ transition: transform 0.05s;
 transform: translateY(-5px)
 }
 
+#teamCards .card {
+    margin-bottom: 20px; /* Space between cards */
+    border-radius: 15px; /* Rounded corners */
+    transition: transform 0.2s; /* Smooth transform on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+#teamCards .card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.card-header {
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent */
+}
+
+.card-body {
+    padding: 20px; /* Spacing inside the card */
+}
+
+.card img {
+    border-radius: 10px; /* Rounded corners for the image */
+}
+
+.card ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
